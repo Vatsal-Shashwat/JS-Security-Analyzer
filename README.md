@@ -26,18 +26,16 @@
 
    pip install -r requirements.txt
    
- <h3>Usage</h3>
+ ## Usage
 
-    <h4>1.Add sample JavaScript files containing potential sensitive data to the sample_files directory.</h4>
+1. **Add sample JavaScript files:** Add your JavaScript files containing potential sensitive information to the `sample_files` directory.
 
-    <h4>2.Run the script:</h4>
+2. **Run the script:**
+   ```sh
+   python find_sensitive_info.py
 
-    python find_sensitive_info.py
-
-    <h4>3. View output: Check the console for detected sensitive information </h4>
-
-    <h3>Sample Output</h3>
-
+<details>
+<summary>Click to expand</summary>
 Scanning file: sample_files/file1.js
 Sensitive information found:
 API keys: YOUR_API_KEY
@@ -48,5 +46,4 @@ Scanning file: sample_files/file2.js
 Sensitive information found:
 API keys: YOUR_ACCESS_TOKEN
 Sensitive URLs: https://example.com/login
-
-
+</details>
