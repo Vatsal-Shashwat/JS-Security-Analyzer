@@ -20,7 +20,7 @@
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/js-sensitive-information-finder.git
+   git clone https://github.com/Vatsal-Shashwat/js-sensitive-information-finder.git
 
    cd js-sensitive-information-finder
 
